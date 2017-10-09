@@ -1,0 +1,45 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:AttachVolume",
+        "ec2:CreatePlacementGroup",
+        "ec2:CreateTags",
+        "ec2:CreateVolume",
+        "ec2:CreateSnapshot",
+        "ec2:DeletePlacementGroup",
+        "ec2:DeleteTags",
+        "ec2:DeleteVolume",
+        "ec2:DeleteSnapshot",
+        "ec2:Describe*",
+        "ec2:DetachVolume",
+        "ec2:EnableVolumeIO",
+        "ec2:GetConsoleOutput",
+        "ec2:ModifyInstanceAttribute",
+        "ec2:ModifyVolumeAttribute",
+        "ec2:ModifyVolume",
+        "ec2:RebootInstances",
+        "ec2:ReportInstanceStatus",
+        "ec2:ResetInstanceAttribute",
+        "ec2:RunInstances",
+        "ec2:StartInstances",
+        "ec2:StopInstances",
+        "ec2:TerminateInstances",
+        "iam:PassRole",
+        "iam:ListInstanceProfiles",
+        "kms:List*",
+        "kms:Describe*",
+        "kms:Get*",
+        "kms:Encrypt",
+        "kms:Decrypt",
+        "kms:ReEncrypt*",
+        "kms:GenerateDataKey*",
+        "iam:ListUsers",
+        "iam:ListRoles"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
