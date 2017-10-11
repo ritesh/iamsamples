@@ -3,7 +3,7 @@
       "Statement": [
         {
           "Effect": "Allow",
-          "Principal": "*",
+          "NotPrincipal": "*",
           "Action": "s3:*",
           "Resource": "*"
         }
