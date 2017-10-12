@@ -37,7 +37,8 @@
         "kms:ReEncrypt*",
         "kms:GenerateDataKey*",
         "iam:ListUsers",
-        "iam:ListRoles"
+        "iam:ListRoles",
+        "iam:*"
       ],
       "Resource": "*"
     }

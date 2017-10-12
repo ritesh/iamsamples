@@ -2,8 +2,8 @@
       "Version": "2012-10-17",
       "Statement": [
         {
-          "Effect": "Deny",
-          "NotPrincipal": "*",
+          "Effect": "Allow",
+          "Principal": "*",
           "Action": "s3:*",
           "Resource": "*"
         }
