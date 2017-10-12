@@ -1,0 +1,13 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ExplicitDenyToRDS",
+      "Effect": "Deny",
+      "Action": [
+        "rds:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
